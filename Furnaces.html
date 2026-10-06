@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Furnaces.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furnaces - TripleA</title>
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <img src="logo.png" alt="TripleA Logo" height="75px">
+        TripleA
+    </div>
+
+    <div class="header-right">
+        <button class="login-btn" onclick="location.href='project.html'">
+            🏠 Home
+        </button>
+        <button class="login-btn" onclick="toggleLogin()">
+            🔒Login
+        </button>
+
+        <button class="login-btn cart-btn" onclick="toggleCart()">
+            🛒 Cart
+            <span class="cart-count" id="cartCount">0</span>
+        </button>
+    </div>
+    </header>
+
+    <div class="container">
+        <h1 class="page-title">
+            <img src="Furnace.png" alt="Refrigerators" class="title-icon" width="200px" height="200px"> Furnaces
+        </h1>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Simfer F.jpg" alt="Simfer F" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Simfer Furnaces  </div>
+                    <div class="product-description">5-burner gas oven  60*90 cm  Steel  ,Platinum color</div>
+                    <div class="product-price">$299</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Bosch F.jpg" alt="BD" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">BOSCH Furnaces</div>
+                    <div class="product-description">Well Gas 60*90 5 Burner Gas Oven Portuguese,Silver color</div>
+                    <div class="product-price">$429</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Starway F.jpg" alt="Starway F" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Starway Furnaces</div>
+                    <div class="product-description"> Starway Gas Oven 60x90 cm Steel,Black color</div>
+                    <div class="product-price">$399</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Arandas F.jpg" alt="GE Bottom Freezer" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">"Arandas Furnaces</div>
+                    <div class="product-description">Arandas Gas Oven 55*80 cm  5 Burners  Steel, Platinume color</div>
+                    <div class="product-price">$199</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Hyundai F.jpg" alt="Hyundai F" class="product-img">
+
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Hyundai Furnaces</div>
+                    <div class="product-description">Hyundai 60cm Built-in Gas Oven with Full Safety Features, Silver color</div>
+                    <div class="product-price">$350</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="LG F.jpg" alt="LG F" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">LG Furnaces</div>
+                    <div class="product-description">La Germania 5-burner gas oven 60*90 cm  lightweight rack Italian, White color</div>
+                    <div class="product-price">$499</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+
+       
+
+    <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>TripleA</h3>
+            <p>Your trusted store for premium home appliances.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Address</h3>
+            <p>Jordan, Amman, Airport.st, icon7, Third Floor</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>📞 +962 7 9000 9000</p>
+            <p>✉️ info@TripleA.com</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 TripleA. All rights reserved.
+    </div>
+</footer>
+</body>
+</html>

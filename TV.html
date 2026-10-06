@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="TV.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV - TripleA</title>
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <img src="logo.png" alt="TripleA Logo" class="logo-img">
+        TripleA
+    </div>
+
+    <div class="header-right">
+        <button class="login-btn" onclick="location.href='project.html'">
+            🏠 Home
+        </button>
+        <button class="login-btn" onclick="toggleLogin()">
+            🔒Login
+        </button>
+
+        <button class="login-btn cart-btn" onclick="toggleCart()">
+            🛒 Cart
+            <span class="cart-count" id="cartCount">0</span>
+        </button>
+    </div>
+    </header>
+
+    <div class="container">
+        <h1 class="page-title">
+            <img src="TV.png" alt="Refrigerators" class="title-icon" width="200px" height="200px"> TVs
+        </h1>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="G-Guard LED TV.jpg" alt="G-Guard LED TV" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">G-Guard LED TV  </div>
+                    <div class="product-description">42Inch, 2HDMI & 2USB, FHD, 1 AV, 1VGA</div>
+                    <div class="product-price">$500</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Xiaomi TV.jpg" alt="Xiaomi TV" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Xiaomi TV</div>
+                    <div class="product-description">Pro 65Inch, QLED, 3HDMI & 2USB</div>
+                    <div class="product-price">$490</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Samsung LED TV.jpg" alt="Samsung LED TV" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Samsung LED TV</div>
+                    <div class="product-description"> 75Inch, Smart & Crystal 4K, 3HDMI & 1USB, Satellite Built-in, Wi-Fi</div>
+                    <div class="product-price">$899</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="LG TV.jpg" alt="LG TV" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">LG TV</div>
+                    <div class="product-description">LG 60" Crystal UHD 4K Smart TV</div>
+                    <div class="product-price">$999</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Sony.jpg" alt="Sony TV" class="product-img">
+
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Sony TV</div>
+                    <div class="product-description">Sony Smart Tv 65 Inch LED, Android, 3 HDMI, 2 USB</div>
+                    <div class="product-price">$250</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="General LED TV.jpg" alt="General LED TV" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">General LED TV</div>
+                    <div class="product-description"> 32Inch HD, Smart Android TV, 2HDMI & 2USB, 2AV, RJ 45</div>
+                    <div class="product-price">$470</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+
+       
+
+    <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>TripleA</h3>
+            <p>Your trusted store for premium home appliances.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Address</h3>
+            <p>Jordan, Amman, Airport.st, icon7, Third Floor</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>📞 +962 7 9000 9000</p>
+            <p>✉️ info@TripleA.com</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 TripleA. All rights reserved.
+    </div>
+</footer>
+</body>
+</html>

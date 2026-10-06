@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Refrigerator.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refrigerators - TripleA</title>
+</head>
+<body>
+
+    <header>
+    <div class="logo">
+        <img src="logo.png" alt="TripleA Logo" class="logo-img">
+        TripleA
+    </div>
+
+    <div class="header-right">
+        <button class="login-btn" onclick="location.href='project.html'">
+    🏠 Home
+        </button>
+        <button class="login-btn" onclick="toggleLogin()">
+            🔒Login
+        </button>
+
+        <button class="login-btn cart-btn" onclick="toggleCart()">
+            🛒 Cart
+            <span class="cart-count" id="cartCount">0</span>
+        </button>
+    </div>
+   
+    </header>
+
+    <div class="container">
+        <h1 class="page-title">
+            <img src="Refrigerator.png" alt="Refrigerators" class="title-icon" width="200px" height="200px"> Refrigerators
+        </h1>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Samsung Ref.jpg" alt="Samsung French Door" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Samsung French Door</div>
+                    <div class="product-description">Large capacity with smart features</div>
+                    <div class="product-price">$1299</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+     🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Lg Ref.jpg" alt="LG Side-by-Side" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">LG Side-by-Side</div>
+                    <div class="product-description">InstaView door-in-door design</div>
+                    <div class="product-price">$1499</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Whrilpool Ref.jpg" alt="Whirlpool Top Freezer" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Whirlpool Top Freezer</div>
+                    <div class="product-description">Energy Star certified</div>
+                    <div class="product-price">$899</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="GEB Ref.jpg" alt="GE Bottom Freezer" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">GE Bottom Freezer</div>
+                    <div class="product-description">Adjustable shelving system</div>
+                    <div class="product-price">$1099</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="BCD Ref.jpg" alt="Bosch Counter-Depth" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Bosch Counter-Depth</div>
+                    <div class="product-description">Built-in premium look</div>
+                    <div class="product-price">$1799</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Compact Ref.jpg" alt="Frigidaire Compact" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Frigidaire Compact</div>
+                    <div class="product-description">Perfect for small spaces</div>
+                    <div class="product-price">$599</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+
+       
+
+    <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>TripleA</h3>
+            <p>Your trusted store for premium home appliances.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Address</h3>
+            <p>Jordan, Amman, Airport.st, icon7, Third Floor</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>📞 +962 7 9000 9000</p>
+            <p>✉️ info@TripleA.com</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 TripleA. All rights reserved.
+    </div>
+</footer>
+</body>
+</html>
