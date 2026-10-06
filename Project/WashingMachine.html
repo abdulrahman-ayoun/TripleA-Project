@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Refrigerator.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refrigerators - TripleA</title>
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <img src="logo.png" alt="TripleA Logo" class="logo-img">
+        TripleA
+    </div>
+
+    <div class="header-right">
+        <button class="login-btn" onclick="location.href='project.html'">
+            🏠 Home
+        </button>
+        <button class="login-btn" onclick="toggleLogin()">
+            🔒Login
+        </button>
+
+        <button class="login-btn cart-btn" onclick="toggleCart()">
+            🛒 Cart
+            <span class="cart-count" id="cartCount">0</span>
+        </button>
+    </div>
+    </header>
+
+    <div class="container">
+        <h1 class="page-title">
+            <img src="WashingMachine.png" alt="WashingMachine" class="title-icon" width="200px" height="200px"> Washing Machine
+        </h1>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Samsung WM.jpg" alt="Samsung WM" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Samsung Bespoke AI All-in-One</div>
+                    <div class="product-description">inverterA 11kg 10 programmes black</div>
+                    <div class="product-price"><del>$1299</del>&nbsp;&nbsp;&nbsp; $999</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Samsung2 WM.jpg" alt="Samsung2 WM" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Samsung WashTower Laundry Center</div>
+                    <div class="product-description">inverter A++ 9kg 14 programmes sliver</div>
+                    <div class="product-price">$1299</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Beko WM.jpg" alt="Beko WM" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Beko Smart Front Load Washer </div>
+                    <div class="product-description"> inverterB 8kg 1200 revolutions White </div>
+                    <div class="product-price">$699</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Daewoo WM.jpg" alt="Daewoo WM" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Daewoo Washing Machines</div>
+                    <div class="product-description">inverterA++ 8kg 10 programmes black</div>
+                    <div class="product-price">$899</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Hitachi WM.jpg" alt="Hitechi WM" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Hitachi Washing Machine</div>
+                    <div class="product-description">inverterA++ 10 Kg 14 programmes silver </div>
+                    <div class="product-price">$1499</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="HotPoint WM.jpg" alt="HotPoint WM" class="product-img">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">HotPoint Washing Machine</div>
+                    <div class="product-description">inverterC 8kg 8 programmes silver</div>
+                    <div class="product-price">$399</div>
+                    <button class="add-to-cart-btn" onclick="addToCart(1, 'Samsung French Door', 1299, 'samsung-fridge.jpg')">
+    🛒 Add to Cart
+</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+
+       
+
+    <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>TripleA</h3>
+            <p>Your trusted store for premium home appliances.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Address</h3>
+            <p>Jordan, Amman, Airport.st, icon7, Third Floor</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>📞 +962 7 9000 9000</p>
+            <p>✉️ info@TripleA.com</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 TripleA. All rights reserved.
+    </div>
+</footer>
+</body>
+</html>
